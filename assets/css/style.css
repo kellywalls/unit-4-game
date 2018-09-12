@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    max-width: 860px;
+    font-size: 18px;
+    margin: 0 auto;
+    background-image: url(../images/28-css-background-patterns-css3-background-patterns.png);
+    
+}
+
+.mainContainer {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#heading {
+    background: #c97126;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 150%;
+    padding: 15px 10px 15px 10px;
+    width: 30%;
+    text-align: center;
+}
+
+#instructions {
+    background: #fbe6cd;
+    width: 50%;
+    margin-top: 10px;
+    color: green;
+    padding-top: 15px;
+    padding-bottom: 70px;
+
+}
+
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#randomDiv  {
+    width: 25%;
+    background: green;
+    padding: 5px 5px 70px 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+#randomNumber {
+    font-size: 30px;
+}
+
+#score  {
+    width: 15%;
+    background: #61fbf5;
+    padding: 5px 5px 53px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    
+}
+
+#score p {
+    padding-top: 5px;
+    text-align: center;
+}
+
+#crystals {
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.images {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background: #fff;
+}
+
+/* clearfix is applied to the parent container to 'fix' the flow of the page */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#scoreText {
+    display: block;
+    clear: both;
+    width: 30%;
+    background: #2ba296;
+    color: #fff;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: auto;
+   
+}
+
+#totalScoreDiv {
+    display: block;
+    width: 30%;
+    background: #2ba296;
+    color: #fff;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding: 5px 5px 70px 5px;
+    margin-bottom: 10px;
+
+}
+
+#totalScore {
+
+    font-size: 30px;
+}
